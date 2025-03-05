@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1 id="Gra_1">Marks based Grades</h1>
+  <form onsubmit="Get_Grades(); return false ;">
+<label for="choose your class">choose your class</label>
+<select name="Choose your class" id="Cla_1">
+    <option>Class 9</option>
+    <option>Class 10</option>
+</select>
+
+<label for="choose your subject">Choose your subject</label>
+<select name="Choose your subject" id="Sub_1">
+    <option>Physics</option>
+    <option>Chemistry</option>
+    <option>Biology</option>
+    <option>Computer Science</option>
+</select>
+
+<label for="choose marks">Choose Marks</label>
+<input type="number" name="Marks" id="Mar_1" placeholder="Enter Marks" required>
+<button type="submit" onsubmit="Get_Grades()">click here</button>
+  </form>
+    <script src="./index.js"></script>
+
+
+
+</body>
+</html>
